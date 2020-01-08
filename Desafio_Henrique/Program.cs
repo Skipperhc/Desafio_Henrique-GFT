@@ -24,6 +24,8 @@ namespace Desafio_Henrique {
 
             Console.WriteLine("\nIndique a cor do seu veículo: ");
             veiculo.Cor = Console.ReadLine();
+
+
         }
     }
 }
