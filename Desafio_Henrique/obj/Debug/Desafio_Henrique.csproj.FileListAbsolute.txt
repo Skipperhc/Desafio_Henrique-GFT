@@ -1,0 +1,6 @@
+C:\Users\VRHC\source\repos\Desafio_Henrique\Desafio_Henrique\Desafio_Henrique\bin\Debug\Desafio_Henrique.exe.config
+C:\Users\VRHC\source\repos\Desafio_Henrique\Desafio_Henrique\Desafio_Henrique\bin\Debug\Desafio_Henrique.exe
+C:\Users\VRHC\source\repos\Desafio_Henrique\Desafio_Henrique\Desafio_Henrique\bin\Debug\Desafio_Henrique.pdb
+C:\Users\VRHC\source\repos\Desafio_Henrique\Desafio_Henrique\Desafio_Henrique\obj\Debug\Desafio_Henrique.csprojAssemblyReference.cache
+C:\Users\VRHC\source\repos\Desafio_Henrique\Desafio_Henrique\Desafio_Henrique\obj\Debug\Desafio_Henrique.exe
+C:\Users\VRHC\source\repos\Desafio_Henrique\Desafio_Henrique\Desafio_Henrique\obj\Debug\Desafio_Henrique.pdb
