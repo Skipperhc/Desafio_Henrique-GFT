@@ -81,11 +81,14 @@ namespace Desafio_Henrique {
 
         public void Frear() {
             if (esta_ligado == true && Velocidade > 0) {
-                Velocidade = -10;
+                Velocidade = Velocidade - 10;
+            } else if (esta_ligado == false) {
+                Console.WriteLine("seu carro está desligado");
             }
             if (Velocidade > 8000) {
                 Console.WriteLine("chama o samu");
             }
+            Atualizar();
         }
 
         public void Pintar(string cor_nova) {
@@ -94,6 +97,7 @@ namespace Desafio_Henrique {
             } else {
                 Console.WriteLine("Seu veículo já possui está cor");
             }
+            Atualizar();
         }
 
         public string Conferir_gas() {
