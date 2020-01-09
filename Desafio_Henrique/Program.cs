@@ -96,6 +96,7 @@ namespace Desafio_Henrique {
                         veiculo.zerarperg();
                         break;
                         //
+                        //
                     case 06:
                         Console.WriteLine("Qual a Cor que deseja?");
                         string CorNova = Console.ReadLine();
