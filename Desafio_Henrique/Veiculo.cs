@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace Desafio_Henrique {
     class Veiculo {
@@ -18,6 +18,8 @@ namespace Desafio_Henrique {
 
         public void Ligar() {
             if (esta_ligado == false) {
+                Console.WriteLine("Seu carro está Ligado");
+                Pausinha();
                 esta_ligado = true;
             } else {
                 Console.WriteLine("Seu veículo já está ligado");
@@ -26,6 +28,7 @@ namespace Desafio_Henrique {
 
         public void Desligar() {
             if (esta_ligado == true && Velocidade == 0) {
+                Console.WriteLine("Seu carro está desligado");
                 esta_ligado = false;
             } else if (esta_ligado == true && Velocidade > 0) {
                 Console.WriteLine("Pare o carro antes de desligar");
@@ -57,9 +60,10 @@ namespace Desafio_Henrique {
 
         public void Abastecer(int quant_litros) {
             if (Litros_gas < 100) {
-                int verificar = Litros_gas = +quant_litros;
-                if (verificar > 100) {
-                    Litros_gas = +quant_litros;
+                int verificar = Litros_gas + quant_litros;
+                if (verificar < 100) {
+                    Litros_gas =+ quant_litros;
+                    Writeat(21, 9, Convert.ToString(Litros_gas));
                     Console.WriteLine("");
                 } else {
                     Console.WriteLine("O tanque já está cheio");
@@ -96,6 +100,14 @@ namespace Desafio_Henrique {
                 nivel = "vazio";
             }
             return nivel;
+        }
+
+        public void Pausinha() {
+            Thread.Sleep(TimeSpan.FromMilliseconds(600));
+        }
+        public void Writeat(int left, int top, string frase) {
+            Console.SetCursorPosition(left, top);
+            Console.Write(frase);
         }
     }
 
