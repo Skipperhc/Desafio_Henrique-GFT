@@ -1,0 +1,6 @@
+C:\Users\Vitor Hainosz\source\repos\desafio-veiculo\obj\Debug\desafio-veiculo.csprojAssemblyReference.cache
+C:\Users\Vitor Hainosz\source\repos\desafio-veiculo\bin\Debug\desafio-veiculo.exe.config
+C:\Users\Vitor Hainosz\source\repos\desafio-veiculo\bin\Debug\desafio-veiculo.exe
+C:\Users\Vitor Hainosz\source\repos\desafio-veiculo\bin\Debug\desafio-veiculo.pdb
+C:\Users\Vitor Hainosz\source\repos\desafio-veiculo\obj\Debug\desafio-veiculo.exe
+C:\Users\Vitor Hainosz\source\repos\desafio-veiculo\obj\Debug\desafio-veiculo.pdb
